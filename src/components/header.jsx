@@ -25,7 +25,6 @@ export default function  Header({person = "Leah"}){
     const mood = text[2].split(" ");
     let t = parseInt(text[0]);
     mood[1] == "PM" ? t = 12+t : t;
-    console.log(t)
 
     return(
         <div className="Header">

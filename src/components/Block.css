@@ -1,0 +1,31 @@
+.Block{
+    background-color: #F1D4E5;
+    padding: .5em;
+    margin: 1.5em 0em;
+    border-radius: 2em;
+    max-width: 30vw;
+    box-shadow:  3px 5px 4px #E1AFD1, -2px -1px 4px #FFE6E6; 
+}
+
+.Block *{
+    margin:.5vw;
+}
+
+.Block h2{
+    font-family:  "Montserrat", sans-serif;
+    color: #3e3863;
+    font-weight: 600;
+}
+
+.Block h5{
+    font-family:  "Montserrat", sans-serif;
+    color: #3e3863;
+    font-weight: 600;
+}
+
+.Block h3, p{
+    font-family:  "Montserrat", sans-serif;
+    color: #3e3863;
+    font-weight: 600;
+    display:inline-block;
+}
