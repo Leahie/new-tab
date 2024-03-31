@@ -1,7 +1,10 @@
 
+.Schedules{
+    display: flex;
+}
 .Schedules button{
     position: fixed;
-    right:    15vw;
+    right:    5vw;
     bottom:   5vh;
 }
 

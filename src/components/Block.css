@@ -1,9 +1,9 @@
 .Block{
     background-color: #F1D4E5;
     padding: .5em;
-    margin: 1.5em 0em;
+    margin: 1.5em .5em ;
     border-radius: 2em;
-    max-width: 30vw;
+    width: 33vw;
     box-shadow:  3px 5px 4px #E1AFD1, -2px -1px 4px #FFE6E6; 
 }
 

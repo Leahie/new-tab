@@ -28,7 +28,7 @@ export default function Schedules(){
             {!toggle && (day!="Sunday" && day!="Saturday") && <ScheduleOne/>}
             {toggle && <ScheduleMult />}
             {!toggle && <button onClick={change}>Toggle All</button>}
-            {toggle && <button onClick={change}>Toggle Today</button>}
+            {toggle && <button onClick={change}>Toggle Now</button>}
         </div>
     )           
     

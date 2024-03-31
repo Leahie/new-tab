@@ -1,0 +1,23 @@
+.Personal{
+    background-color: #F1D4E5;
+    padding: .5em;
+    margin: 1.5em .5em;
+    border-radius: 2em;
+    width: 33vw;
+    height: fit-content;
+    box-shadow:  3px 5px 4px #E1AFD1, -2px -1px 4px #FFE6E6; 
+}
+
+.Personal *{
+    margin:.5vw;
+}
+
+
+.Personal h2, h3{
+    font-family:  "Montserrat", sans-serif;
+    color: #3e3863;
+    font-weight: 600;
+}
+.Personal h3{
+    font-size: 1.3em;
+}
