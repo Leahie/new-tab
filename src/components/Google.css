@@ -1,0 +1,15 @@
+.Google{
+    background-color: white;
+    padding: .2em 1em;
+    border-radius: 2em;
+}
+.Google input{
+    border: none;
+    width:100%;
+    overflow: visible;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.Google input:focus{
+    outline: none;
+}
