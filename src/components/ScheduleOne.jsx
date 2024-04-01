@@ -8,7 +8,7 @@ export default function ScheduleOne(){
 
     useEffect(()=>{
         isCancelled=true;
-        fetch("https://ion.tjhsst.edu/api/schedule")
+        fetch("schedule")
         .then((response)=> { return response.json();})
         .then((data)=> {console.log(data); setData(data);})
         .catch(error=> console.log(error));

@@ -6,7 +6,7 @@ export default function ScheduleMult(){
     let fin = [];
 
     useEffect(()=>{
-        fetch("https://ion.tjhsst.edu/api/schedule?page_size=7")
+        fetch("schedule?page_size=7")
         .then((response)=> { return response.json();})
         .then((data)=> { setData(data);})
         .catch(error=> console.log(error));
