@@ -1,5 +1,5 @@
 import Google from "./Google.jsx";
-import Heading from "./Heading.jsx";
+import Heading from "./Heads.jsx";
 import Time from "./Time.jsx";
 import React, {useState} from "react";
 
