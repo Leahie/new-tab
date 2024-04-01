@@ -6,7 +6,7 @@ export default function ScheduleMult(){
     let fin = [];
 
     useEffect(()=>{
-        fetch("schedule?page_size=7")
+        fetch(import.meta.env.REACT_APP_BACKEND_URL+"schedule?page_size=7")
         .then((response)=> { return response.json();})
         .then((data)=> { setData(data);})
         .catch(error=> console.log(error));
