@@ -5,10 +5,10 @@ export default function ScheduleOne(){
     let isCancelled = false;
     const [data, setData] = useState(null);
     let arr;
-
+    // fetch(import.meta.env.REACT_APP_BACKEND_URL+"schedule")
     useEffect(()=>{
         isCancelled=true;
-        fetch(import.meta.env.REACT_APP_BACKEND_URL+"schedule")
+        fetch("schedule")
         .then((response)=> { return response.json();})
         .then((data)=> {console.log(data); setData(data);})
         .catch(error=> console.log(error));

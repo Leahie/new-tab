@@ -1,7 +1,7 @@
 import "./Heading.css"
 
 export default function Heading({t}){
-    
+    console.log(t)
     return(
         <div className="Heading">
             {t>6 && t<=9 && <h1>Why are you awake</h1>}

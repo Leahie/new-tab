@@ -4,9 +4,9 @@ import Block from "./Block.jsx";
 export default function ScheduleMult(){
     const [data, setData] = useState(null);
     let fin = [];
-
+    //import.meta.env.REACT_APP_BACKEND_URL+
     useEffect(()=>{
-        fetch(import.meta.env.REACT_APP_BACKEND_URL+"schedule?page_size=7")
+        fetch("schedule?page_size=7")
         .then((response)=> { return response.json();})
         .then((data)=> { setData(data);})
         .catch(error=> console.log(error));
