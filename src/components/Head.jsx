@@ -24,7 +24,7 @@ export default function  Header({person = "Leah"}){
     const text = time.split(":");
     const mood = text[2].split(" ");
     let t = parseInt(text[0]);
-    mood[1] == "PM" ? t = 12+t : t;
+    mood[1] == "PM" && t!=12 ? t = 12+t : t;
     mood[1] == "AM" && t==12 ? t=0 : t=t;
 
     return(
